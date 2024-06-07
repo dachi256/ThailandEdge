@@ -40,3 +40,16 @@ window.addEventListener('click', event => {
         modalVideo.currentTime = 0;
     }
 });
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const questionTitles = document.querySelectorAll('.question-title');
+
+    questionTitles.forEach(function(title) {
+        title.addEventListener('click', function() {
+            const answer = this.nextElementSibling;
+            answer.style.display = answer.style.display === 'none' ? 'block' : 'none';
+        });
+    });
+});

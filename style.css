@@ -410,3 +410,23 @@ footer {
     height: 450px;
     border: none;
 }
+
+
+.question {
+    margin-bottom: 20px;
+}
+
+.question-title {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+.question-answer {
+    display: none;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #f0f0f0;
+    border-radius: 5px;
+}
