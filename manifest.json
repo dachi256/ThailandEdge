@@ -1,0 +1,22 @@
+{
+    "name": "Artistic Action in Practice",
+    "short_name": "Artistic Action",
+    "description": "Exploring art and society in the Mekong Region",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#fdfdfd",
+    "theme_color": "#edce34",
+    "orientation": "portrait-primary",
+    "icons": [
+      {
+        "src": "/assets/icon-192x192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/assets/icon-512x512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+  }
